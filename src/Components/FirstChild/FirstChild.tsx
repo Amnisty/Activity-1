@@ -4,7 +4,7 @@ import { FirstChildProps } from '../../interfaces'
 export const FirstChild = (props: FirstChildProps): JSX.Element => {
     const { description, image, onClick, title, counter } = useFirstChild(props)
     return (
-        <div className="block w-[32.9%] min-w-[320px] rounded-lg shadow-lg bg-neutral-700">
+        <div className="block w-[32.9%] min-w-[320px] justify-center rounded-lg shadow-lg bg-neutral-700">
             <img
                 className="rounded-t-lg h-36 object-cover w-full"
                 src={image}
