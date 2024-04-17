@@ -28,5 +28,9 @@
     "tailwindcss": "^3.4.1",
     "typescript": "^5.2.2",
     "vite": "^5.1.0"
-  }
+  },
+  "main": "index.js",
+  "repository": "https://github.com/Amnisty/Activity-1.git",
+  "author": "Amnisty <cduran140102@gmail.com>",
+  "license": "MIT"
 }
